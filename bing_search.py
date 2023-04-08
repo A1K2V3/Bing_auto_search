@@ -26,7 +26,7 @@ class BingSearch:
         # configure options
         options = Options()
         options.use_chromium = True
-        # options.add_argument("--headless=True")
+        options.add_argument("--headless=True")
         options.add_argument("--start-maximized")
         options.add_argument(r"user-data-dir=./usr_data")
 
