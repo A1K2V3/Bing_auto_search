@@ -34,7 +34,8 @@ class BingSearch:
 
     def configure_driver(self, device):
         if device == "mobile":
-            self.options.add_argument("--user-agent=Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Mobile Safari/537.36")
+            self.options.add_argument("--user-agent=Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.48 Mobile Safari/537.36 EdgA/111.0.1661.59")
+            
 
         self.driver = webdriver.Edge(service=self.service, options=self.options)
 
